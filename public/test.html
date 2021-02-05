@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='utf-8'>
+    <title>ToDoList - tests</title>
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/flexboxgrid.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/mocha.css">
+
+</head>
+
+<body>
+    <!--Main page-->
+    <div style="display: none">
+        <button type="submit" name="button"></button>
+        <button id="deleteAll"></button>
+        <button id="save"></button>
+    </div>
+
+    <div id="mocha"></div>
+
+    <!-- initialize your application -->
+    <script type="module" src="../src/init.js"></script>
+    <!-- unit-tests -->
+    <script src="../lib/chai.js"></script>
+    <script src="../lib/mocha.js"></script>
+    <script class="mocha-init">
+        mocha.setup('bdd');
+    </script>
+    <script type="module" src="../src/tests/todoTest.js"></script>
+</body>
+
+</html>
