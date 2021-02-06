@@ -156,6 +156,36 @@ We will make a simple TODO app to practice Object Oriented JavaScript. The final
 - _If the todo has no text, send a warning message_
 
 ---
+## New Timer Features
+
+### A user can see timer button
+- _As a user I want to be able to have a timer button in my todolist.
+
+ _Add a button next to remove button for timer
+---
+
+### A user can set break time for todo.
+- _As a user I want to be able to set an amout of time to go for break.
+
+- _Add buttons to show diffrent periods for user so user can select one of them.
+
+---
+
+### A user can select the period of time
+- _As a user I want to be able to select the peroid of time for my break.
+
+- _Add a form input for user to enter the time other than present in the buttons.
+
+---
+
+### A user can see the break timeup
+
+- _As a user I want to know how much time is left from my break time.
+
+- _Add a function that shows the user the break end time.
+
+---
+
 
 ### The team will debug the app
 
