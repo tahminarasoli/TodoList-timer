@@ -2,7 +2,7 @@
 
 ![GitHub issues](https://img.shields.io/github/issues/bermarte/encapsulation-list-prototype?style=plastic) ![Website](https://img.shields.io/website?style=plastic&up_message=up&url=https%3A%2F%2Fgithub.com%2Fbermarte%2Fencapsulation-list-prototype) ![GitHub contributors](https://img.shields.io/github/contributors/bermarte/encapsulation-list-prototype?style=plastic)
 
-*This project is the continius of the below project from group 5.*
+*This project is the continius of the below project from group 5. this will add a timer function to the previous project*
 The Encapsulation-list-prototype is the last group project of the Encapsulation module. We will make a simple TODO app to practice Object Oriented JavaScript.
 
 
@@ -12,7 +12,18 @@ Group is:
 
 - [Tahmina](https://github.com/tahminarasoli)
 
-
+---
+## indevendual project checklist
+- [X] [repo](https://github.com/tahminarasoli/TodoList-timer) (with a complete README)
+- [X] [live demo](https://tahminarasoli.github.io/TodoList-timer/public/timer.html)
+- Planning
+  - [X] [Backlog](https://github.com/tahminarasoli/TodoList-timer/blob/master/project-planning/backlog.md)
+  - [X] [Development Strategy](https://github.com/tahminarasoli/TodoList-timer/blob/master/project-planning/development-strategy.md)
+- Implementation
+  - [X] ES Modules (`import`/`export`)
+  - [X] at least one `class`
+  - [X] at least one `setTimeout` and one `setInterval`
+  - [ ] Logs of each user interaction
 ---
 
 [Group issue](https://github.com/HackYourFutureBelgium/class-11-12/issues/281)  
