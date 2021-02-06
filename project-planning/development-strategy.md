@@ -1,6 +1,7 @@
 # encapsulation-list-prototype
 
 We will make a simple TODO app to practice Object Oriented JavaScript. The final result will be similar to [this one](https://mametur.github.io/to-do-list/).
+A new feature for this project is to have a timer for the todos.
 
 [README](../README.md)
 
