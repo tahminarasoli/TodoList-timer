@@ -161,33 +161,33 @@ A new feature for this project is to have a timer for the todos.
 ## New Timer Features
 
 ### A user can see timer button
-- _As a user I want to be able to have a timer button in my todolist.
+- _As a user I want to be able to have a timer button in my todolist._
 
- _Add a button next to remove button for timer
+- _Add a button next to remove button for timer_
  
 ---
 
 ### A user can set break time for todo.
 
-- _As a user I want to be able to set an amout of time to go for break.
+- _As a user I want to be able to set an amout of time to go for break._
 
-- _Add buttons to show diffrent periods for user so user can select one of them.
+- _Add buttons to show diffrent periods for user so user can select one of them._
 
 ---
 
 ### A user can select the period of time
 
-- _As a user I want to be able to select the peroid of time for my break.
+- _As a user I want to be able to select the peroid of time for my break._
 
-- _Add a form input for user to enter the time other than present in the buttons.
+- _Add a form input for user to enter the time other than present in the buttons._
 
 ---
 
 ### A user can see the break timeup
 
-- _As a user I want to know how much time is left from my break time.
+- _As a user I want to know how much time is left from my break time._
 
-- _Add a function that shows the user the break end time.
+- _Add a function that shows the user the break end time._
 
 ---
 
