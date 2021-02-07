@@ -192,7 +192,7 @@ A new feature for this project is to have a timer for the todos.
 ---
 
 
-### Extra development tasks for developers
+### Extra tasks for developers
 
 - _test the app and fix the errors._
 
