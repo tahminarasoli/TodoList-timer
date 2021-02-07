@@ -192,24 +192,20 @@ A new feature for this project is to have a timer for the todos.
 ---
 
 
-### The team will debug the app
+### Extra development tasks for developers
 
-- _As a developer I want to be test the app and fix the error we will find_
+- _test the app and fix the errors._
 
 - _check the consistency of HTML/CSS and JavaScript_
 
 ---
 
-### A user will create unit-tests for the application
+- _implement unit tests._
 
-- _As a developer, I want to implement unit tests_
-
-- _write unit-tests in JavaScript_
+- _write unit-tests in JavaScript._
 
 ---
 
-### A user will implement the logger function for the application
+- _log all the most important objects and functions used._
 
-- _As a developer, I want to log all the most important objects and functions used_
-
-- _mplement the logger function provided_
+- _implement the logger function provided._

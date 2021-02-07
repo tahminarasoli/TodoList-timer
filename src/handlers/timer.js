@@ -1,7 +1,10 @@
 
-import {displayTimeLeft} from '../handlers/displayTimeLeft.js'
-import {displayEndTime} from '../handlers/displayEndTime.js'
-
+// import {displayTimeLeft} from '../handlers/displayTimeLeft.js'
+// import {displayEndTime} from '../handlers/displayEndTime.js'
+import Display from '../classes/displaytime.js'
+import {
+  logger
+} from '../../lib/logger.js'
 let countdown;
 export function timer(seconds) {
   // clear any existing timers
@@ -9,8 +12,9 @@ export function timer(seconds) {
 
   const now = Date.now();
   const then = now + seconds * 1000;
-  displayTimeLeft(seconds);
-  displayEndTime(then);
+  const display = new Display()
+  display.displayTimeLeft(seconds);
+  display.displayEndTime(then);
 
   countdown = setInterval(() => {
     const secondsLeft = Math.round((then - Date.now()) / 1000);
@@ -20,7 +24,7 @@ export function timer(seconds) {
       return;
     }
     // display it
-    displayTimeLeft(secondsLeft);
+    display.displayTimeLeft(secondsLeft);
   }, 1000);
 }
 
@@ -31,4 +35,8 @@ export function startTimer() {
   timer(seconds);
 }
 
+logger.push({
+  timer: 'timer',
+  startTimer: 'startTimer'
 
+})
