@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 80;
 const LOG_DIRNAME = `server-logs`;
 const LOG_DIR = path.join(__dirname, LOG_DIRNAME);
 const LOG_PATH = path.join(LOG_DIR, `${(new Date()).toJSON().replace(/:/g, '_')}.txt`);
